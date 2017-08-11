@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title= title
+    link(rel="stylesheet",type="text/css",href="css/bootstrap.min.css")
+    link(rel="stylesheet",type="text/css",href="css/bootstrap-theme.css")
+    script(src="js/jquery.min.js")
+  body
+    header
+      .container
+        .row
+          h2.col-lg-12.col-xs-12.col-md-12 Welcome to RPI
+
+    .container
+      .row
+        form(method="POST").col-lg-12
+          .form-group
+            label(for="ssid") SSID
+            select(name="ssid-name").form-control#ssid
+              each ssid in networks
+                option(value=ssid.ssid)= ssid.ssid
+          .form-group
+            label(for="password") Password
+            input(type="password", name="ssid-pass").form-control#password
+          button(type="submit").btn.btn-primary Connect

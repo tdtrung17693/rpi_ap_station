@@ -1,0 +1,1 @@
+wpa_supplicant.enable({interface: "wlan0", ssid: "NamGiao", passphrase: "NamGiao2003", driver: "wext"}, (err, data) => { console.log(err, data) });
