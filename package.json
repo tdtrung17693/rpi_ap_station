@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "chalk": "^2.1.0",
     "glue": "^4.2.0",
     "good": "^7.2.0",
