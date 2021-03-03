@@ -24,7 +24,7 @@
     "node-wifi-scanner": "^1.0.0",
     "node-wifiscanner": "^0.2.1",
     "pubnub": "^4.13.0",
-    "pug": "^2.0.0-rc.3",
+    "pug": "^3.0.1",
     "vision": "^4.1.1",
     "wifi-control": "^2.0.1",
     "wifiscanner": "^1.0.1",
